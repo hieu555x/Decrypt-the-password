@@ -61,7 +61,7 @@ public class Main {
             // Nhập kết quả vào file output
             System.out.print("Nhập nơi lưu file output:");
             s = sc.nextLine();
-            file = new File(s + "\\output.txt");
+            file = new File(s + "\\output.oup");
             FileOutputStream fileOutput = new FileOutputStream(file);
             fileOutput.write(output.getBytes());
             System.out.println("Hoàn thành!!");
